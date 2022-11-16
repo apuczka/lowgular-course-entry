@@ -13,5 +13,6 @@ import { EmployeeModel } from '../../model/employee.model';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EmployeeListComponent {
+  
   data$: Observable<EmployeeModel[] | null> = of(null);
 }
