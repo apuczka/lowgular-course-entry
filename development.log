@@ -11296,3 +11296,1024 @@
 	"level": "info",
 	"message": "[CommandBus]: Handled  ImportTemplateModulesCommand"
 }
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-layout/flow: {
+	"funcParams": {
+		"actionId": "ADD_LAYOUT_TEMPLATE",
+		"label": "Display Layout",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-layout/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-layout/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-layout/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "layout",
+				"title": "Which layout to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "section",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-layout",
+				"payload": {
+					"layoutTemplate": "layout.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-layout/flow"
+}
+[info] [CLI] Calling Command angular-component/templates/add-layout: {
+	"funcParams": {
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-layout"
+}
+[info] [CommandBus]: Dispatching command AddLayoutToTemplateCommand: {
+	"commandName": "AddLayoutToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry",
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentHtml": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"className": "CheckboxCategoriesComponent",
+		"position": 187,
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddLayoutToTemplateCommand"
+}
+[info] [EventBus]: Broadcasting event TemplateAddedEvent: {
+	"type": "TemplateAddedEvent",
+	"payload": {
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event TemplateAddedEvent"
+}
+[info] [EventBus]: Broadcasted TemplateAddedEvent: {
+	"event": {
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted TemplateAddedEvent"
+}
+[info] [CommandBus]: Handled  AddLayoutToTemplateCommand: {
+	"commandName": "AddLayoutToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry",
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentHtml": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"className": "CheckboxCategoriesComponent",
+		"position": 187,
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddLayoutToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-layout: {
+	"message": "[CLI] Called Command angular-component/templates/add-layout",
+	"level": "info"
+}
+[info] [CommandBus]: Dispatching command ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ImportTemplateModulesCommand"
+}
+[info] [CommandBus]: Handled  ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ImportTemplateModulesCommand"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-detail/flow: {
+	"funcParams": {
+		"actionId": "ADD_DETAIL_TEMPLATE",
+		"label": "Display Detail",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-detail/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-detail/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "detail",
+				"title": "Which detail template to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "content",
+						"contextVariables": []
+					},
+					{
+						"label": "text",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			},
+			{
+				"contextId": "data",
+				"title": "What data to use?",
+				"type": "multi-option",
+				"options": [],
+				"extraOptions": [],
+				"property": "name",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-detail",
+				"payload": {
+					"propertyName": "data.name",
+					"detailTemplate": "detail.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-detail/flow: {
+	"funcParams": {
+		"actionId": "ADD_DETAIL_TEMPLATE",
+		"label": "Display Detail",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-detail/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-detail/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "detail",
+				"title": "Which detail template to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "content",
+						"contextVariables": []
+					},
+					{
+						"label": "text",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			},
+			{
+				"contextId": "data",
+				"title": "What data to use?",
+				"type": "multi-option",
+				"options": [],
+				"extraOptions": [],
+				"property": "name",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-detail",
+				"payload": {
+					"propertyName": "data.name",
+					"detailTemplate": "detail.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/add-component/flow: {
+	"funcParams": {
+		"actionId": "ADD_COMPONENT_TEMPLATE",
+		"label": "Display Component",
+		"callPath": [],
+		"flowUrl": "angular-component/add-component/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/add-component/flow"
+}
+[info] [CLI] Called Query angular-component/add-component/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "component",
+				"title": "Which component do you want to add?",
+				"type": "multi-option",
+				"options": [
+					{
+						"path": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/app.component.ts",
+						"selector": "app-root",
+						"name": "AppComponent"
+					},
+					{
+						"path": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+						"selector": "app-checkbox-categories",
+						"name": "CheckboxCategoriesComponent"
+					},
+					{
+						"path": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/crypto/crypto.component.ts",
+						"selector": "app-crypto",
+						"name": "CryptoComponent"
+					},
+					{
+						"path": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+						"selector": "employee-list",
+						"name": "EmployeeListComponent"
+					},
+					{
+						"path": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/single/single.component.ts",
+						"selector": "app-single",
+						"name": "SingleComponent"
+					}
+				],
+				"extraOptions": [],
+				"property": "selector",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/add-component",
+				"payload": {
+					"selector": "component.selector",
+					"componentFilePath": "component.path",
+					"componentName": "component.name"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/add-component/flow"
+}
+[info] [CLI] Calling Command angular-component/add-component: {
+	"funcParams": {
+		"selector": "app-checkbox-categories",
+		"componentFilePath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentName": "CheckboxCategoriesComponent"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/add-component"
+}
+[info] [CommandBus]: Dispatching command AddComponentToTemplate: {
+	"commandName": "AddComponentToTemplate",
+	"payload": {
+		"selector": "app-checkbox-categories",
+		"componentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"parentComponentHtmlPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"componentName": "CheckboxCategoriesComponent",
+		"position": 5
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddComponentToTemplate"
+}
+[info] [EventBus]: Broadcasting event ComponentAddedToTemplateEvent: {
+	"type": "ComponentAddedToTemplateEvent",
+	"payload": {
+		"parentComponentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentName": "CheckboxCategoriesComponent"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event ComponentAddedToTemplateEvent"
+}
+[info] [EventBus]: Broadcasted ComponentAddedToTemplateEvent: {
+	"event": {
+		"parentComponentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentName": "CheckboxCategoriesComponent"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted ComponentAddedToTemplateEvent"
+}
+[error] [CommandBus]: Error AddComponentToTemplate: {
+	"commandName": "AddComponentToTemplate",
+	"payload": {
+		"selector": "app-checkbox-categories",
+		"componentPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"parentComponentHtmlPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"componentName": "CheckboxCategoriesComponent",
+		"position": 5
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error AddComponentToTemplate"
+}
+[info] [CommandBus]: Dispatching command ImportComponentCommand: {
+	"commandName": "ImportComponentCommand",
+	"payload": {
+		"modulePath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts",
+		"modulesToInjectPaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ImportComponentCommand"
+}
+[error] [CommandBus]: Error ImportComponentCommand: {
+	"commandName": "ImportComponentCommand",
+	"payload": {
+		"modulePath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts",
+		"modulesToInjectPaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		]
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error ImportComponentCommand"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-layout/flow: {
+	"funcParams": {
+		"actionId": "ADD_LAYOUT_TEMPLATE",
+		"label": "Display Layout",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-layout/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-layout/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-layout/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "layout",
+				"title": "Which layout to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "section",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-layout",
+				"payload": {
+					"layoutTemplate": "layout.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-layout/flow"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-detail/flow: {
+	"funcParams": {
+		"actionId": "ADD_DETAIL_TEMPLATE",
+		"label": "Display Detail",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-detail/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-detail/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "detail",
+				"title": "Which detail template to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "content",
+						"contextVariables": []
+					},
+					{
+						"label": "text",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			},
+			{
+				"contextId": "data",
+				"title": "What data to use?",
+				"type": "multi-option",
+				"options": [],
+				"extraOptions": [],
+				"property": "name",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-detail",
+				"payload": {
+					"propertyName": "data.name",
+					"detailTemplate": "detail.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-detail/flow"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "CheckboxCategoriesComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_LIST_TEMPLATE",
+				"label": "Display List",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-list/flow"
+			},
+			{
+				"actionId": "ADD_FORM_TEMPLATE",
+				"label": "Display Form",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-form/flow"
+			},
+			{
+				"actionId": "ADD_DETAIL_TEMPLATE",
+				"label": "Display Detail",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-detail/flow"
+			},
+			{
+				"actionId": "ADD_LAYOUT_TEMPLATE",
+				"label": "Display Layout",
+				"callPath": [],
+				"flowUrl": "angular-component/templates/add-layout/flow"
+			},
+			{
+				"actionId": "ADD_COMPONENT_TEMPLATE",
+				"label": "Display Component",
+				"callPath": [],
+				"flowUrl": "angular-component/add-component/flow"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [CLI] Calling Query angular-component/templates/add-list/flow: {
+	"funcParams": {
+		"actionId": "ADD_LIST_TEMPLATE",
+		"label": "Display List",
+		"callPath": [],
+		"flowUrl": "angular-component/templates/add-list/flow"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/add-list/flow"
+}
+[info] [CLI] Called Query angular-component/templates/add-list/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "list",
+				"title": "Which list template to show?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "ul",
+						"contextVariables": []
+					},
+					{
+						"label": "table",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			},
+			{
+				"contextId": "data",
+				"title": "What data to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "checkbox$",
+						"type": "Observable<CheckboxCategoriesModel[]>",
+						"isReadonly": true,
+						"typeProperties": [
+							"title",
+							"name"
+						]
+					}
+				],
+				"extraOptions": [],
+				"property": "name",
+				"canBeEmpty": false
+			},
+			{
+				"contextId": "detail",
+				"title": "Which template to use for details?",
+				"type": "multi-option",
+				"options": [
+					{
+						"label": "content",
+						"contextVariables": []
+					},
+					{
+						"label": "text",
+						"contextVariables": []
+					}
+				],
+				"extraOptions": [],
+				"property": "label",
+				"canBeEmpty": false
+			}
+		],
+		"request": {
+			"config": {
+				"url": "angular-component/templates/add-list",
+				"payload": {
+					"propertyName": "data.name",
+					"listTemplate": "list.label",
+					"detailTemplate": "detail.label"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/add-list/flow"
+}
+[info] [CommandBus]: Dispatching command AddListToTemplateCommand: {
+	"commandName": "AddListToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry",
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentHtml": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"className": "CheckboxCategoriesComponent",
+		"propertyName": "checkbox$",
+		"position": 238,
+		"listTemplate": "ul",
+		"detailTemplate": "content"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddListToTemplateCommand"
+}
+[info] [CLI] Calling Command angular-component/templates/add-list: {
+	"funcParams": {
+		"propertyName": "checkbox$",
+		"listTemplate": "ul",
+		"detailTemplate": "content"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-list"
+}
+[info] [EventBus]: Broadcasting event TemplateAddedEvent: {
+	"type": "TemplateAddedEvent",
+	"payload": {
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event TemplateAddedEvent"
+}
+[info] [EventBus]: Broadcasted TemplateAddedEvent: {
+	"event": {
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted TemplateAddedEvent"
+}
+[info] [CommandBus]: Handled  AddListToTemplateCommand: {
+	"commandName": "AddListToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry",
+		"componentTs": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.ts",
+		"componentHtml": "/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component.html",
+		"className": "CheckboxCategoriesComponent",
+		"propertyName": "checkbox$",
+		"position": 238,
+		"listTemplate": "ul",
+		"detailTemplate": "content"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddListToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-list: {
+	"message": "[CLI] Called Command angular-component/templates/add-list",
+	"level": "info"
+}
+[info] [CommandBus]: Dispatching command ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ImportTemplateModulesCommand"
+}
+[info] [CommandBus]: Handled  ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"/Users/apuczka/Desktop/Angela/projekty/lowgular-course-entry/src/app/ui/checkbox-categories/checkbox-categories.component-module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ImportTemplateModulesCommand"
+}
